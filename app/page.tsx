@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use client";
 
 import { useSession, signIn, signOut } from "next-auth/react";
@@ -32,3 +33,14 @@ export default function HomePage() {
     </div>
   );
 }
+=======
+
+
+export default function Home() {
+  return (
+    <div className="bg-amber-500 min-h-screen">
+
+    </div>
+  );
+}
+>>>>>>> e70d1ad2ff0e2c86956a1e42450a97020e44086b
